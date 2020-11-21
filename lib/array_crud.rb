@@ -27,7 +27,7 @@ remove_first = remove_from_start.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-retrieve_element ["wow", "I", "am", "really", "learning", "arrays!"]
+retrieve_element = ["wow", "I", "am", "really", "learning", "arrays!"]
 
 end
 

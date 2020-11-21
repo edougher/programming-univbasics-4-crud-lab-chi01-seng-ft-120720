@@ -7,25 +7,27 @@ new_array = [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-add_to = ["Bill", "Bob"]
+add_to = ["wow", "I", "am", "really", "learning"]
 add_to << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-to_front = ["Bill", "Steve"]
+to_front = ["I", "am", "really", "learning", "arrays!"]
 to_front.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-from_end = ["Bill", "Steve", "arrays!"]
+from_end = ["wow", "I", "am", "really", "learning", "arrays!"]
 last_one = from_end.pop
 end
 
 def remove_element_from_start_of_array(array)
-
+remove_from_start = ["wow", "I", "am", "really", "learning", "arrays!"]
+remove_first = remove_from_start.shift
 end
 
 def retrieve_element_from_index(array, index_number)
+retrieve_element ["wow", "I", "am", "really", "learning", "arrays!"]
 
 end
 

@@ -17,7 +17,7 @@ to_front.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-from_end = ["Bill", "Steve"]
+from_end = ["Bill", "Steve", "arrays"]
 last_one = from_end.pop
 end
 
